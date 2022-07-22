@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins";
+}
+
+.orange-text {
+    color: orangered;
+}
+
+.btn {
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(to right, orangered, orange);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background: rgb(7, 7, 28);
+    border: 1px solid orangered;
+    color: #fff;
+    padding: 9px 19px;
+}
+
+/* header section style*/
+
+#header {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(81, 71, 58);
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.header-title {
+    width: 50%;
+}
+
+.header-image {
+    width: 50%;
+}
+
+.header-image img {
+    width: 100%;
+}
+
+/* service section style */
+.service-section-boxes {
+    width: 100%;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.service-box {
+    background-color: antiquewhite;
+    width: 30%;
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+.service-box:hover {
+    border: 1px solid orangered;
+    padding: 9px 19px;
+}
+
+.service-icon {
+    width: 30%;
+}
+
+.service-icon img {
+    width: 100%;
+    padding: 10px;
+}
+
+.service-text {
+    width: 70%;
+}
+
+/* Laptop product section style */
+
+#product-section {
+    width: 100%;
+    margin: 40px 0;
+}
+
+.laptop-section,
+.mobile-section {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.product-cards {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 30%;
+    text-align: center;
+    box-shadow: 2px 2px 30px rgb(203, 180, 180);
+    padding: 20px 0;
+    border-radius: 10px;
+}
+
+.card-image {
+    width: 100%;
+}
+
+.card-image img {
+    width: 90%;
+    border-radius: 10px;
+}
+
+.card-text {
+    padding: 0;
+}
+
+.card-text h4 {
+    margin-top: 10px;
+}
+
+.card-text p {
+    margin-top: 10px;
+}
+
+.card-text h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#footer {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(10, 10, 10);
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#form-section {
+    width: 100%;
+    text-align: center;
+    margin: 50px 0;
+}
+
+form {
+    width: 80%;
+    display: inline-block;
+    margin-top: 50px;
+    padding-top: 60px;
+    height: 300px;
+    background-color: antiquewhite;
+
+}
+
+form input {
+    width: 50%;
+    padding: 10px 10px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background: linear-gradient(to right, orangered, orange);
+    color: #fff;
+}
+
+input[type="submit"]:hover {
+    background: rgb(7, 7, 28);
+    border: 1px solid orangered;
+    color: #fff;
+}
