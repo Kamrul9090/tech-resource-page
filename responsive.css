@@ -1,12 +1,7 @@
 @media only screen and (max-width:576px) {
-    body {
-        background-color: burlywood;
-    }
-
     #header {
         flex-direction: column;
         justify-content: space-around;
-
         text-align: center;
     }
 
@@ -35,5 +30,6 @@
 
     .card {
         width: 100%;
+        margin-bottom: 30px;
     }
 }
