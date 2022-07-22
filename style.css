@@ -150,14 +150,13 @@ body {
 }
 
 #form-section {
-    width: 100%;
     text-align: center;
     margin: 50px 0;
 }
 
 form {
     width: 80%;
-    display: inline-block;
+    margin: auto;
     margin-top: 50px;
     padding-top: 60px;
     height: 300px;
